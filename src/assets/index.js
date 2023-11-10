@@ -29,7 +29,7 @@ import mrcto from "./company/mrcto.avif";
 import technlogi from "./company/technlogi.png";
 
 import youtubeClone from "./Youtube-Clone.png";
-import faceBookClone from "./Facebook-Clone.png";
+import faceBookClone from "./facebook-clone.png";
 import amazonClone from "./amazon-clone.png";
 import starMatch from "./star-match.png";
 import schoolWebsite from "./school-website.png";
