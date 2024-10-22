@@ -14,8 +14,8 @@ function PageLayout({children}) {
     <main className={`${inter.className}`}>
         <div>
             <Head>
-                <title>Rojab Khan</title>
-                <link rel="icon" href="/favicon-96x96.png" />
+                <title>Aniruddh Parwal</title>
+                {/* <link rel="icon" href="/favicon-96x96.png" /> */}
             </Head>
 
             <div className="bg-slate-900">
