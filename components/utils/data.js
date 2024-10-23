@@ -1,13 +1,28 @@
 export const projects = [
-  // {
-  //   thumbnail:
-  //     "https://img.money.com/2023/06/Explainer-Write-Resume.jpg?quality=85",
-  //   title: "Resume Builder",
-  //   description:
-  //     "Introducing our revolutionary Resume Builder App. Craft professional resumes effortlessly with sleek templates and seamless customization. Say hello to streamlined job applications and unlock new career opportunities. Get started today.",
-  //   tags: ["CSS", "TailwindCSS", "React", "JavaScript", "React PDF"],
-  //   demo: "https://resumemate.vercel.app/",
-  // }
+  {
+    thumbnail: "/images/Youtube-Clone.png", // Replace this with the correct image path
+    title: "YouTube Clone",
+    description:
+      "This Clone website is built using React-JS. Also used SCSS and BEM Naming Convention in the development.",
+    tags: ["React", "Flexbox", "SCSS", "BEM"],
+    demo: "https://github.com/aniruddhparwal/youtube-clone",
+  },
+  {
+    thumbnail: "/images/covid19.png", // Replace this with the correct image path
+    title: "COVID-19 Tracker",
+    description:
+      "This website is built using React-JS and uses the open diseases.sh API for data. An interactive graph represents the data.",
+    tags: ["React", "REST API", "SCSS", "Data Visualization"],
+    demo: "https://github.com/aniruddhparwal/COVID19-Tracker/",
+  },
+  {
+    thumbnail: "/images/amazon-clone.png", // Replace this with the correct image path
+    title: "Amazon Clone",
+    description:
+      "A simple clone website built using React-JS, with Firebase authentication allowing users to create accounts and log in.",
+    tags: ["React", "Firebase", "CSS", "User Authentication"],
+    demo: "https://github.com/aniruddhparwal/amazon-clone",
+  },
 ];
 
 export const experiences = [
