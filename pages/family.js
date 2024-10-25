@@ -4,6 +4,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { motion } from "framer-motion";
+import Head from "next/head";
 
 const familyData = {
   GreatGrandParents: [
@@ -201,17 +202,6 @@ const Family = () => {
     }
   }, [router.query]);
 
-  useEffect(() => {
-    document.title = "Aniruddh | Family Details";
-    let link = document.querySelector("link[rel~='icon']");
-    if (!link) {
-      link = document.createElement("link");
-      link.rel = "icon";
-      document.head.appendChild(link);
-    }
-    link.href = "/aniruddh.jpg";
-  }, []);
-
   const validatePassword = (inputPassword) => {
     if (inputPassword === PASSWORD) {
       setIsAuthenticated(true);
@@ -262,50 +252,56 @@ const Family = () => {
   }
 
   return (
-    <div className="min-h-screen bg-[#0f172a] py-12 px-4 sm:px-6 lg:px-8 text-white">
-      <motion.div
-        className="max-w-4xl mx-auto p-8 rounded-2xl shadow-lg bg-[#1e293b]"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.1 }} // Trigger animation only once when 10% is in view
-        variants={fadeInUp}
-      >
-        <h1 className="text-4xl font-bold text-center mb-8">
-          Aniruddh's Family Details
-        </h1>
+    <>
+      <Head>
+        <title>Aniruddh Parwal - Family Details</title>
+        <meta name="robots" content="noindex, nofollow" />
+      </Head>
+      <div className="min-h-screen bg-[#0f172a] py-12 px-4 sm:px-6 lg:px-8 text-white">
+        <motion.div
+          className="max-w-4xl mx-auto p-8 rounded-2xl shadow-lg bg-[#1e293b]"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.1 }} // Trigger animation only once when 10% is in view
+          variants={fadeInUp}
+        >
+          <h1 className="text-4xl font-bold text-center mb-8">
+            Aniruddh's Family Details
+          </h1>
 
-        {Object.keys(familyData).map((category, index) => (
-          <motion.section
-            key={index}
-            className="mt-10"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.2 }}
-            variants={fadeInUp}
-          >
-            <h2 className="text-2xl font-semibold text-gray-300 mb-6">
-              {category.replace(/([A-Z])/g, " $1").trim()}
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {familyData[category].map((member, idx) => (
-                <FamilyMemberCard
-                  key={idx}
-                  name={member.name}
-                  occupation={member.occupation}
-                  contact={member.contact}
-                  additionalInfo={member.additionalInfo}
-                  parent={member.parent}
-                  place={member.place}
-                  relation={member.relation}
-                  spouse={member.spouse}
-                  education={member.education}
-                />
-              ))}
-            </div>
-          </motion.section>
-        ))}
-      </motion.div>
-    </div>
+          {Object.keys(familyData).map((category, index) => (
+            <motion.section
+              key={index}
+              className="mt-10"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.2 }}
+              variants={fadeInUp}
+            >
+              <h2 className="text-2xl font-semibold text-gray-300 mb-6">
+                {category.replace(/([A-Z])/g, " $1").trim()}
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                {familyData[category].map((member, idx) => (
+                  <FamilyMemberCard
+                    key={idx}
+                    name={member.name}
+                    occupation={member.occupation}
+                    contact={member.contact}
+                    additionalInfo={member.additionalInfo}
+                    parent={member.parent}
+                    place={member.place}
+                    relation={member.relation}
+                    spouse={member.spouse}
+                    education={member.education}
+                  />
+                ))}
+              </div>
+            </motion.section>
+          ))}
+        </motion.div>
+      </div>
+    </>
   );
 };
 
