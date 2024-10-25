@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Head from "next/head";
 import { FiArrowRight, FiExternalLink } from "react-icons/fi"; // Importing the external link icon
+import Footer from "@/components/Footer/Footer";
 
 const ProfilePage = () => {
   // Function to handle download button
@@ -44,7 +45,9 @@ const ProfilePage = () => {
               <h1 className="text-4xl font-bold mb-4 text-primary">
                 Aniruddh Parwal
               </h1>
-              <p className="text-lg font-semibold mb-4">Software Developer</p>
+              <p className="text-lg font-semibold mb-4">
+                Software Developer at Visit Health, Noida
+              </p>
               <p className="mb-4 text-highlight">
                 I am a software engineer with a simple lifestyle and strong
                 family values. I believe in hard work, honesty, and respecting
@@ -135,7 +138,7 @@ const ProfilePage = () => {
                   <strong>Grandfather:</strong> Shri Gopal Krishna Ji Parwal
                 </li>
                 <li>
-                  <strong>Father:</strong> Shri Pankaj Parwal (Principle, Aditya
+                  <strong>Father:</strong> Shri Pankaj Parwal (Principal, Aditya
                   Public School)
                 </li>
                 <li>
@@ -145,7 +148,7 @@ const ProfilePage = () => {
                   <strong>Brother:</strong> Kartik Parwal (Pursuing CA)
                 </li>
                 <li>
-                  <strong>Tau Ji:</strong> Shri Rajdeep Parwal (Self-owned
+                  <strong>Uncle Ji:</strong> Shri Rajdeep Parwal (Self-owned
                   Business)
                 </li>
               </ul>
@@ -197,6 +200,9 @@ const ProfilePage = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center">
+        <Footer />
       </div>
     </>
   );

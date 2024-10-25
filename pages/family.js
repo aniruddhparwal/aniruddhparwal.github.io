@@ -5,11 +5,12 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { motion } from "framer-motion";
 import Head from "next/head";
+import Footer from "@/components/Footer/Footer";
 
 const familyData = {
   GreatGrandParents: [
     {
-      name: "Late Murlidar Ji Parwal",
+      name: "Late Murlidhar Ji Parwal",
     },
     {
       name: "Late Geeta Devi Parwal",
@@ -27,7 +28,7 @@ const familyData = {
       relation: "Dadi ji",
     },
     {
-      name: "Shri Suresh Parwal",
+      name: "Shri Suresh Ji Parwal",
       relation: "Chote Dada ji",
       occupation: "Manager at Labhmuni, Mandsaur",
     },
@@ -89,16 +90,19 @@ const familyData = {
     {
       name: "Shri Radhyshyam Kabra",
       relation: "Nana ji",
+      place: "Chittorgarh (Raj.)",
     },
     {
       name: "Shri Vaibhav Kabra",
       occupation: "CFO, Royal Sundaram General Insurance",
       relation: "Mama ji",
+      place: "Chennai",
     },
     {
       name: "Shri Deepak Kabra",
       occupation: "Experienced ASIC Verifier, Ericsson",
       relation: "Mama ji",
+      place: "Stockholm, Swedan",
     },
   ],
   Sibling: [
@@ -119,12 +123,13 @@ const familyData = {
       parent: "S/O Rajdeep Parwal",
     },
     {
-      name: "Divyash Parwal",
+      name: "Divyansh Parwal",
       education: "Schooling 10th",
       parent: "S/O Abhishek Parwal",
     },
     {
       name: "Heenal Parwal",
+      education: "Schooling Senior KG",
       parent: "D/O Saurabh Parwal",
     },
     {
@@ -301,6 +306,9 @@ const Family = () => {
             </motion.section>
           ))}
         </motion.div>
+      </div>
+      <div className="flex justify-center">
+        <Footer />
       </div>
     </>
   );
