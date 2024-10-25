@@ -254,6 +254,7 @@ const Family = () => {
   return (
     <>
       <Head>
+        <link rel="icon" href="/aniruddh.jpg" />
         <title>Aniruddh Parwal - Family Details</title>
         <meta name="robots" content="noindex, nofollow" />
       </Head>

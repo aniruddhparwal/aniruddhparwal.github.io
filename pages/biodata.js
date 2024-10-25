@@ -15,6 +15,7 @@ const ProfilePage = () => {
     <>
       <Head>
         <title>Aniruddh Parwal - Biodata</title>
+        <link rel="icon" href="/aniruddh.jpg" />
         <meta name="robots" content="noindex, nofollow" />
       </Head>
       <div className="bg-darkBg text-darkText min-h-screen py-10 px-5">
@@ -158,7 +159,7 @@ const ProfilePage = () => {
               <ul className="list-none mt-2 space-y-2">
                 <li>
                   <a
-                    href="https://example.com"
+                    href="https://maps.app.goo.gl/ewT7SS1mLGThdpb46"
                     target="_blank"
                     className="text-blue-400 hover:underline"
                   >
@@ -167,34 +168,25 @@ const ProfilePage = () => {
                 </li>
                 <li>
                   <a
-                    href="https://example.com"
+                    href="https://maps.app.goo.gl/LSv7q4QnjWvqei7U9"
                     target="_blank"
                     className="text-blue-400 hover:underline"
                   >
-                    Sarovar Bhojanalaya
+                    Pioneer Academy, Kalakhet
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://example.com"
+                    href="https://maps.app.goo.gl/AfLMmjxXrQ14b9HL6"
                     target="_blank"
                     className="text-blue-400 hover:underline"
                   >
-                    Pioneer Academy
+                    Computer Sarovar
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://example.com"
-                    target="_blank"
-                    className="text-blue-400 hover:underline"
-                  >
-                    Shreyas Enterprises
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://example.com"
+                    href="https://maps.app.goo.gl/LSv7q4QnjWvqei7U9"
                     target="_blank"
                     className="text-blue-400 hover:underline"
                   >
