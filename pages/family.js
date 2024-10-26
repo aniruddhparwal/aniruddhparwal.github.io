@@ -31,6 +31,7 @@ const familyData = {
     {
       name: "Shri Suresh Ji Parwal",
       relation: "Chote Dada ji",
+      contact: 9460076979,
       occupation:
         "Senior Administrator at Jain Diwakar Shree Labhmuni Eye hospital, Mandsaur",
     },
@@ -41,6 +42,7 @@ const familyData = {
     },
     {
       name: "Shri Dinesh Ji Parwal",
+      contact: 9406853033,
       relation: "Chote Dada ji",
       occupation: "Family Business",
     },
@@ -64,6 +66,7 @@ const familyData = {
   UncleAndAunt: [
     {
       name: "Shri Rajdeep Parwal",
+      contact: 9425327666,
       parent: "S/O Shri Gopal Krishna Parwal",
       occupation: "Family Business",
     },
@@ -75,6 +78,7 @@ const familyData = {
   CousinUnclesAndAunts: [
     {
       name: "Shri Abhishek Parwal",
+      contact: 9425105513,
       parent: "S/O Shri Suresh Parwal",
       occupation: "Self-owned Business",
     },
@@ -84,6 +88,7 @@ const familyData = {
     },
     {
       name: "Shri Saurabh Parwal",
+      contact: 9893609995,
       parent: "S/O Shri Dinesh Parwal",
       occupation: "Self-owned Business",
     },
@@ -93,6 +98,7 @@ const familyData = {
     },
     {
       name: "Shri Gaurav Parwal",
+      contact: 9425327566,
       spouse: "S/O Shri Dinesh Parwal",
       occupation: "Self-owned Business",
     },

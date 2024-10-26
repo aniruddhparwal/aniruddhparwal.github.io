@@ -236,6 +236,14 @@ const ProfilePage = () => {
               </ul>
             </div>
           </div>
+          <div className="flex flex-col items-center mt-10 mb-10">
+            <h2 className="text-3xl font-bold text-primary mb-4">Kundli</h2>
+            <img
+              src="/kundli.jpg"
+              alt="Kundli"
+              className="rounded-lg shadow-lg mx-auto w-full max-w-md"
+            />
+          </div>
         </div>
       </div>
       <div className="flex justify-center">
