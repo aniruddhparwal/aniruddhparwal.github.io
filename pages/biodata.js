@@ -3,6 +3,8 @@ import Head from "next/head";
 import { FiArrowRight, FiExternalLink, FiDownload } from "react-icons/fi"; // Importing the external link icon
 import Footer from "@/components/Footer/Footer";
 import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa"; // Importing social media icons
+import { TbLibraryPhoto } from "react-icons/tb"; // Importing social media icons
+import { useRouter } from "next/router";
 
 const ProfilePage = () => {
   // Function to handle download button
@@ -12,6 +14,7 @@ const ProfilePage = () => {
     link.download = "Aniruddh_Parwal_Biodata.pdf";
     link.click();
   };
+  const router = useRouter();
 
   return (
     <>
@@ -33,13 +36,22 @@ const ProfilePage = () => {
                 className="rounded-lg shadow-lg w-64 h-64 object-cover mb-4"
               />
               {/* Download Button */}
-              <button
-                onClick={handleDownload}
-                className="flex items-center bg-primary from-blue-500 to-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:from-blue-600 hover:to-blue-800 transition-colors duration-300 transform hover:scale-105 mb-4"
-              >
-                <FiDownload className="text-sm h-6 mr-2" />
-                BioData
-              </button>
+              <div className="flex">
+                <button
+                  onClick={handleDownload}
+                  className="flex items-center bg-primary from-blue-500 to-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:from-blue-600 hover:to-blue-800 transition-colors duration-300 transform hover:scale-105 mb-4"
+                >
+                  <FiDownload className="text-sm h-6 mr-2" />
+                  BioData
+                </button>
+                <button
+                  onClick={() => router.push("/gallery")}
+                  className="flex items-center bg-primary from-blue-500 to-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:from-blue-600 hover:to-blue-800 transition-colors duration-300 transform hover:scale-105 mb-4"
+                >
+                  <TbLibraryPhoto className="text-sm h-6 mr-2" />
+                  Photo Gallery
+                </button>
+              </div>
               {/* Social Media Icons */}
               <div className="flex space-x-4 mt-2">
                 <a

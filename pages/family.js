@@ -99,7 +99,7 @@ const familyData = {
     {
       name: "Shri Gaurav Parwal",
       contact: 9425327566,
-      spouse: "S/O Shri Dinesh Parwal",
+      parent: "S/O Shri Dinesh Parwal",
       occupation: "Self-owned Business",
     },
     {
@@ -123,7 +123,7 @@ const familyData = {
   ],
   MaternalFamily: [
     {
-      name: "Shri Radhyshyam Kabra",
+      name: "Shri Radhyshyam Ji Kabra",
       contact: 9351419617,
       relation: "Nana ji",
       place: "Chittorgarh (Raj.)",
@@ -166,7 +166,7 @@ const familyData = {
     },
     {
       name: "Heenal Parwal",
-      education: "Schooling Senior KG",
+      education: "Schooling Junior KG",
       parent: "D/O Shri Saurabh Parwal",
     },
     {
@@ -178,7 +178,7 @@ const familyData = {
       parent: "S/O Shri Gaurav Parwal",
     },
     {
-      name: "TBD",
+      name: "Granth Parwal",
       parent: "S/O Shri Saurabh Parwal",
     },
   ],
