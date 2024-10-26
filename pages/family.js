@@ -31,11 +31,12 @@ const familyData = {
     {
       name: "Shri Suresh Ji Parwal",
       relation: "Chote Dada ji",
-      occupation: "Manager at Labhmuni, Mandsaur",
+      occupation:
+        "Senior Administrator at Jain Diwakar Shree Labhmuni Eye hospital, Mandsaur",
     },
     {
       name: "Smt. Chandrakanta Parwal",
-      spouse: "W/O Suresh Parwal",
+      spouse: "W/O Shri Suresh Parwal",
       relation: "Chote Dadi ji",
     },
     {
@@ -45,14 +46,14 @@ const familyData = {
     },
     {
       name: "Smt. Vidhya Parwal",
-      spouse: "W/O Dinesh Parwal",
+      spouse: "W/O Shri Dinesh Parwal",
       relation: "Chote Dadi ji",
     },
   ],
   Parents: [
     {
       name: "Shri Pankaj Parwal",
-      occupation: "Principle, Aditya Public School, Mandsaur (M.P.)",
+      occupation: "Principal, Aditya Public School, Mandsaur (M.P.)",
       contact: 9425923700,
     },
     {
@@ -63,41 +64,41 @@ const familyData = {
   UncleAndAunt: [
     {
       name: "Shri Rajdeep Parwal",
-      parent: "S/O Gopal Krishna Parwal",
+      parent: "S/O Shri Gopal Krishna Parwal",
       occupation: "Family Business",
     },
     {
       name: "Smt. Anusha Parwal",
-      spouse: "W/O Rajdeep Parwal",
+      spouse: "W/O Shri Rajdeep Parwal",
     },
   ],
   CousinUnclesAndAunts: [
     {
       name: "Shri Abhishek Parwal",
-      parent: "S/O Suresh Parwal",
+      parent: "S/O Shri Suresh Parwal",
       occupation: "Self-owned Business",
     },
     {
       name: "Smt. Rakhi Parwal",
-      spouse: "W/O Abhishek Parwal",
+      spouse: "W/O Shri Abhishek Parwal",
     },
     {
       name: "Shri Saurabh Parwal",
-      parent: "S/O Dinesh Parwal",
+      parent: "S/O Shri Dinesh Parwal",
       occupation: "Self-owned Business",
     },
     {
       name: "Smt. Priyanka Parwal",
-      spouse: "W/O Saurabh Parwal",
+      spouse: "W/O Shri Saurabh Parwal",
     },
     {
       name: "Shri Gaurav Parwal",
-      spouse: "S/O Dinesh Parwal",
+      spouse: "S/O Shri Dinesh Parwal",
       occupation: "Self-owned Business",
     },
     {
       name: "Smt. Arpita Parwal",
-      spouse: "W/O Gaurav Parwal",
+      spouse: "W/O Shri Gaurav Parwal",
     },
   ],
   BuaJi: [
@@ -145,34 +146,34 @@ const familyData = {
     {
       name: "Sumedha Parwal",
       education: "Pursuing MBA",
-      parent: "D/O Rajdeep Parwal",
+      parent: "D/O Shri Rajdeep Parwal",
     },
     {
       name: "Shreyas Parwal",
       education: "Schooling 11th",
-      parent: "S/O Rajdeep Parwal",
+      parent: "S/O Shri Rajdeep Parwal",
     },
     {
       name: "Divyansh Parwal",
       education: "Schooling 10th",
-      parent: "S/O Abhishek Parwal",
+      parent: "S/O Shri Abhishek Parwal",
     },
     {
       name: "Heenal Parwal",
       education: "Schooling Senior KG",
-      parent: "D/O Saurabh Parwal",
+      parent: "D/O Shri Saurabh Parwal",
     },
     {
       name: "Hriday Parwal",
-      parent: "S/O Gaurav Parwal",
+      parent: "S/O Shri Gaurav Parwal",
     },
     {
       name: "Hridaan Parwal",
-      parent: "S/O Gaurav Parwal",
+      parent: "S/O Shri Gaurav Parwal",
     },
     {
       name: "TBD",
-      parent: "S/O Saurabh Parwal",
+      parent: "S/O Shri Saurabh Parwal",
     },
   ],
 };
