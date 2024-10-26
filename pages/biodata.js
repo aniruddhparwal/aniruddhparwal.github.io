@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import Head from "next/head";
-import { FiArrowRight, FiExternalLink } from "react-icons/fi"; // Importing the external link icon
+import { FiArrowRight, FiExternalLink, FiDownload } from "react-icons/fi"; // Importing the external link icon
 import Footer from "@/components/Footer/Footer";
+import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa"; // Importing social media icons
 
 const ProfilePage = () => {
   // Function to handle download button
@@ -27,19 +28,54 @@ const ProfilePage = () => {
             {/* Profile Image */}
             <div className="flex flex-col items-center">
               <img
-                src="/aniruddh.jpg"
+                src="/aniruddh.jpg" // Replace with the actual image path
                 alt="Profile"
-                className="rounded-lg shadow-lg w-80 h-80 object-cover mb-4"
+                className="rounded-lg shadow-lg w-64 h-64 object-cover mb-4"
               />
               {/* Download Button */}
               <button
                 onClick={handleDownload}
-                className="bg-primary text-white py-2 px-6 rounded-lg hover:bg-primary-dark transition-colors duration-300"
+                className="flex items-center bg-primary from-blue-500 to-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:from-blue-600 hover:to-blue-800 transition-colors duration-300 transform hover:scale-105 mb-4"
               >
-                Download Bio Data
+                <FiDownload className="text-sm h-6 mr-2" />
+                BioData
               </button>
+              {/* Social Media Icons */}
+              <div className="flex space-x-4 mt-2">
+                <a
+                  href="https://linkedin.com/in/aniruddhparwal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-800"
+                >
+                  <FaLinkedin size={24} />
+                </a>
+                <a
+                  href="https://github.com/aniruddhparwal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-gray-800"
+                >
+                  <FaGithub size={24} />
+                </a>
+                <a
+                  href="https://twitter.com/aniruddhparwal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-blue-600"
+                >
+                  <FaTwitter size={24} />
+                </a>
+                <a
+                  href="https://instagram.com/aniruddhparwal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-pink-600 hover:text-pink-800"
+                >
+                  <FaInstagram size={24} />
+                </a>
+              </div>
             </div>
-
             {/* Profile Details */}
             <div>
               <h1 className="text-4xl font-bold mb-4 text-primary">
@@ -61,10 +97,10 @@ const ProfilePage = () => {
                 <p>
                   📞 Contact:{" "}
                   <a
-                    href="tel:9425923700"
+                    href="tel:9752225100"
                     className="text-blue-400 hover:underline"
                   >
-                    9425923700
+                    Click here to connect
                   </a>
                 </p>
                 <p>
@@ -139,7 +175,7 @@ const ProfilePage = () => {
                 </li>
                 <li>
                   <strong>Father:</strong> Shri Pankaj Parwal (Principal, Aditya
-                  Public School)
+                  Public School, Mandsaur)
                 </li>
                 <li>
                   <strong>Mother:</strong> Smt. Ritu Parwal (Homemaker)
@@ -148,7 +184,7 @@ const ProfilePage = () => {
                   <strong>Brother:</strong> Kartik Parwal (Pursuing CA)
                 </li>
                 <li>
-                  <strong>Uncle Ji:</strong> Shri Rajdeep Parwal (Self-owned
+                  <strong>Uncle Ji:</strong> Shri Rajdeep Parwal (Family
                   Business)
                 </li>
               </ul>
@@ -178,6 +214,7 @@ const ProfilePage = () => {
                     Pioneer Academy, Kalakhet
                   </a>
                 </li>
+                <li className="text-blue-400">Shreyas Enterprises</li>
                 <li>
                   <a
                     href="https://maps.app.goo.gl/AfLMmjxXrQ14b9HL6"

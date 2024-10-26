@@ -8,14 +8,14 @@ import Head from "next/head";
 import Footer from "@/components/Footer/Footer";
 
 const familyData = {
-  GreatGrandParents: [
-    {
-      name: "Late Murlidhar Ji Parwal",
-    },
-    {
-      name: "Late Geeta Devi Parwal",
-    },
-  ],
+  // GreatGrandParents: [
+  //   {
+  //     name: "Late Murlidhar Ji Parwal",
+  //   },
+  //   {
+  //     name: "Late Geeta Devi Parwal",
+  //   },
+  // ],
   GrandParents: [
     {
       name: "Shri Gopal Krishna Ji Parwal",
@@ -25,6 +25,7 @@ const familyData = {
     },
     {
       name: "Smt. Chandrakala Parwal",
+      spouse: "W/O Gopal Krishna Parwal",
       relation: "Dadi ji",
     },
     {
@@ -34,6 +35,7 @@ const familyData = {
     },
     {
       name: "Smt. Chandrakanta Parwal",
+      spouse: "W/O Suresh Parwal",
       relation: "Chote Dadi ji",
     },
     {
@@ -43,6 +45,7 @@ const familyData = {
     },
     {
       name: "Smt. Vidhya Parwal",
+      spouse: "W/O Dinesh Parwal",
       relation: "Chote Dadi ji",
     },
   ],
@@ -57,16 +60,26 @@ const familyData = {
       occupation: "Homemaker",
     },
   ],
-  KakaJi: [
+  UncleAndAunt: [
     {
       name: "Shri Rajdeep Parwal",
       parent: "S/O Gopal Krishna Parwal",
-      occupation: "Self-owned Business",
+      occupation: "Family Business",
     },
+    {
+      name: "Smt. Anusha Parwal",
+      spouse: "W/O Rajdeep Parwal",
+    },
+  ],
+  CousinUnclesAndAunts: [
     {
       name: "Shri Abhishek Parwal",
       parent: "S/O Suresh Parwal",
       occupation: "Self-owned Business",
+    },
+    {
+      name: "Smt. Rakhi Parwal",
+      spouse: "W/O Abhishek Parwal",
     },
     {
       name: "Shri Saurabh Parwal",
@@ -74,28 +87,45 @@ const familyData = {
       occupation: "Self-owned Business",
     },
     {
+      name: "Smt. Priyanka Parwal",
+      spouse: "W/O Saurabh Parwal",
+    },
+    {
       name: "Shri Gaurav Parwal",
-      parent: "S/O Dinesh Parwal",
+      spouse: "S/O Dinesh Parwal",
       occupation: "Self-owned Business",
+    },
+    {
+      name: "Smt. Arpita Parwal",
+      spouse: "W/O Gaurav Parwal",
     },
   ],
   BuaJi: [
     {
-      name: "Smt. Deepshikha",
-      spouse: "W/O Shri Shailendra Ji Palod",
+      name: "Smt. Deepshikha W/O Shri Shailendra Ji Palod",
       place: "Chittorgarh (Raj.)",
+      contact: 9414306868,
+    },
+  ],
+  CousinBuaJi: [
+    {
+      name: "Smt. Garima W/O Shri Manoj Ji Maheshwari",
+      place: "Neemuch (M.P.)",
+      contact: 9826061266,
     },
   ],
   MaternalFamily: [
     {
       name: "Shri Radhyshyam Kabra",
+      contact: 9351419617,
       relation: "Nana ji",
       place: "Chittorgarh (Raj.)",
     },
     {
-      name: "Shri Vaibhav Kabra",
+      name: "CA Vaibhav Kabra",
       occupation: "CFO, Royal Sundaram General Insurance",
       relation: "Mama ji",
+      contact: 7666282930,
       place: "Chennai",
     },
     {
@@ -137,7 +167,7 @@ const familyData = {
       parent: "S/O Gaurav Parwal",
     },
     {
-      name: "Hridan Parwal",
+      name: "Hridaan Parwal",
       parent: "S/O Gaurav Parwal",
     },
     {
@@ -147,7 +177,7 @@ const familyData = {
   ],
 };
 
-const PASSWORD = process.env.NEXT_PUBLIC_FAMILY_PAGE_PASSWORD; // Store this in your .env file
+const PASSWORD = process.env.NEXT_PUBLIC_FAMILY_PAGE_PASSWORD;
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 50 },
@@ -177,7 +207,7 @@ const FamilyMemberCard = ({
     {occupation && <p className="text-gray-400 mb-1">💼 {occupation}</p>}
     {contact && (
       <a href={`tel:${contact}`}>
-        <p className="text-gray-400 mb-1">📞 {contact}</p>
+        <p className="text-gray-400 mb-1">📞 Click here to connect</p>
       </a>
     )}
     {additionalInfo && <p className="text-gray-400 mb-1">{additionalInfo}</p>}
