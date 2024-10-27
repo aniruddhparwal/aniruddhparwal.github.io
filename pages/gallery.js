@@ -13,7 +13,8 @@ const GalleryPage = () => {
       try {
         const response = await fetch("/api/gallery");
         const data = await response.json();
-        setImages(data.images);
+        const suffle = data.images.sort((a, b) => 0.5 - Math.random());
+        setImages(suffle);
       } catch (error) {
         console.error("Error fetching gallery images:", error);
       } finally {

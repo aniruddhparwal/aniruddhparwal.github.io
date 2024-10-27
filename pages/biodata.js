@@ -145,6 +145,13 @@ const ProfilePage = () => {
                     <li>
                       <strong>Sankhein:</strong> Parwal / Kabra
                     </li>
+                    <li>
+                      <strong>Complexion:</strong> Wheatish
+                    </li>
+                    <li>
+                      <strong>Address:</strong> “ANAND”, 75/4 Kalakhet, Near
+                      Jain Temple, Mandsaur (M.P.)
+                    </li>
                   </ul>
                 </div>
                 {/* Interests Section */}
@@ -186,6 +193,9 @@ const ProfilePage = () => {
                   <strong>Grandfather:</strong> Shri Gopal Krishna Ji Parwal
                 </li>
                 <li>
+                  <strong>Grandmother:</strong> Smt. Chandrakala Parwal
+                </li>
+                <li>
                   <strong>Father:</strong> Shri Pankaj Parwal (Principal, Aditya
                   Public School, Mandsaur)
                 </li>
@@ -214,7 +224,7 @@ const ProfilePage = () => {
                     target="_blank"
                     className="text-blue-400 hover:underline"
                   >
-                    Maheshwari Coal Depot & Coal Industries
+                    Maheshwari Coal Depot & Coal Industries, Mandsaur
                   </a>
                 </li>
                 <li>
@@ -223,17 +233,26 @@ const ProfilePage = () => {
                     target="_blank"
                     className="text-blue-400 hover:underline"
                   >
-                    Pioneer Academy, Kalakhet
+                    Pioneer Academy, Kalakhet, Mandsaur
                   </a>
                 </li>
-                <li className="text-blue-400">Shreyas Enterprises</li>
+                <li className="text-blue-400">Shreyas Enterprises, Mandsaur</li>
+                <li>
+                  <a
+                    href="https://maps.app.goo.gl/k15nbsFLrYXvJs5a6"
+                    target="_blank"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Raj Bhog AC Dining Hall, Behind Bus Stand, Mandsaur
+                  </a>
+                </li>
                 <li>
                   <a
                     href="https://maps.app.goo.gl/AfLMmjxXrQ14b9HL6"
                     target="_blank"
                     className="text-blue-400 hover:underline"
                   >
-                    Computer Sarovar
+                    Computer Sarovar, Mandsaur
                   </a>
                 </li>
                 <li>
@@ -242,7 +261,16 @@ const ProfilePage = () => {
                     target="_blank"
                     className="text-blue-400 hover:underline"
                   >
-                    Surabhi Enterprises
+                    Surabhi Enterprises, Mandsaur
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://maps.app.goo.gl/LSv7q4QnjWvqei7U9"
+                    target="_blank"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Technlogi Solution Pvt. Ltd., Indore
                   </a>
                 </li>
               </ul>

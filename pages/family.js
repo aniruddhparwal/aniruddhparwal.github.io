@@ -67,7 +67,7 @@ const familyData = {
     {
       name: "Shri Rajdeep Parwal",
       contact: 9425327666,
-      parent: "S/O Shri Gopal Krishna Parwal",
+      parent: "S/O Chandrakala Gopal Krishna Parwal",
       occupation: "Family Business",
     },
     {
@@ -79,7 +79,7 @@ const familyData = {
     {
       name: "Shri Abhishek Parwal",
       contact: 9425105513,
-      parent: "S/O Shri Suresh Parwal",
+      parent: "S/O Chandrakanta Suresh Parwal",
       occupation: "Self-owned Business",
     },
     {
@@ -89,7 +89,7 @@ const familyData = {
     {
       name: "Shri Saurabh Parwal",
       contact: 9893609995,
-      parent: "S/O Shri Dinesh Parwal",
+      parent: "S/O Vidhya Dinesh Parwal",
       occupation: "Self-owned Business",
     },
     {
@@ -99,7 +99,7 @@ const familyData = {
     {
       name: "Shri Gaurav Parwal",
       contact: 9425327566,
-      parent: "S/O Shri Dinesh Parwal",
+      parent: "S/O Vidhya Dinesh Parwal",
       occupation: "Self-owned Business",
     },
     {
@@ -139,6 +139,7 @@ const familyData = {
       name: "Shri Deepak Kabra",
       occupation: "Experienced ASIC Verifier, Ericsson",
       relation: "Mama ji",
+      contact: +46728370758,
       place: "Stockholm, Swedan",
     },
   ],
@@ -152,34 +153,34 @@ const familyData = {
     {
       name: "Sumedha Parwal",
       education: "Pursuing MBA",
-      parent: "D/O Shri Rajdeep Parwal",
+      parent: "D/O Anusha Rajdeep Parwal",
     },
     {
       name: "Shreyas Parwal",
       education: "Schooling 11th",
-      parent: "S/O Shri Rajdeep Parwal",
+      parent: "S/O Anusha Rajdeep Parwal",
     },
     {
       name: "Divyansh Parwal",
       education: "Schooling 10th",
-      parent: "S/O Shri Abhishek Parwal",
+      parent: "S/O Rakhi Abhishek Parwal",
     },
     {
       name: "Heenal Parwal",
       education: "Schooling Junior KG",
-      parent: "D/O Shri Saurabh Parwal",
+      parent: "D/O Priyanka Saurabh Parwal",
     },
     {
       name: "Hriday Parwal",
-      parent: "S/O Shri Gaurav Parwal",
+      parent: "S/O Arpita Gaurav Parwal",
     },
     {
       name: "Hridaan Parwal",
-      parent: "S/O Shri Gaurav Parwal",
+      parent: "S/O Arpita Gaurav Parwal",
     },
     {
       name: "Granth Parwal",
-      parent: "S/O Shri Saurabh Parwal",
+      parent: "S/O Priyanka Saurabh Parwal",
     },
   ],
 };
