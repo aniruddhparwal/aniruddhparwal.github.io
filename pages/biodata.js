@@ -97,11 +97,9 @@ const ProfilePage = () => {
                 Software Developer at Visit Health, Noida
               </p>
               <p className="mb-4 text-highlight">
-                I am a software engineer with a simple lifestyle and strong
-                family values. I believe in hard work, honesty, and respecting
-                elders. I am looking for a life partner who values family,
-                shares similar thoughts, and is ready to walk together in this
-                journey of life with understanding and respect.
+                A software engineer with simple lifestyle, strong family values.
+                Looking for a life partner who is ready to walk together in this
+                journey with understanding and respect.
               </p>
 
               {/* Contact Info */}
@@ -130,17 +128,17 @@ const ProfilePage = () => {
                 {/* About Me Section */}
                 <div>
                   <h2 className="text-xl font-semibold text-primary">
-                    About Me
+                    About Me...
                   </h2>
                   <ul className="list-none mt-2 space-y-1 text-highlight">
                     <li>
-                      <strong>Date of Birth:</strong> 17th Dec 1999
+                      <strong>Date of Birth:</strong> Dec 17, 1999
                     </li>
                     <li>
                       <strong>Time & Place:</strong> 12:14 PM, Mandsaur
                     </li>
                     <li>
-                      <strong>Height:</strong> 5 ft. 11 in
+                      <strong>Height:</strong> 5' 11"
                     </li>
                     <li>
                       <strong>Sankhein:</strong> Parwal / Kabra
@@ -157,12 +155,12 @@ const ProfilePage = () => {
                 {/* Interests Section */}
                 <div>
                   <h2 className="text-xl font-semibold text-primary">
-                    Interests
+                    I Loves to...
                   </h2>
                   <ul className="list-none mt-2 space-y-1">
-                    <li>Sports</li>
-                    <li>Music</li>
-                    <li>Travel</li>
+                    <li>Play Badminton</li>
+                    <li>Listen Music</li>
+                    <li>Explore New Places</li>
                   </ul>
                 </div>
               </div>
@@ -270,7 +268,7 @@ const ProfilePage = () => {
                     target="_blank"
                     className="text-blue-400 hover:underline"
                   >
-                    Technlogi Solution Pvt. Ltd., Indore
+                    Tech-n-logi Solutions Pvt. Ltd., Indore
                   </a>
                 </li>
               </ul>

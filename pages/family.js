@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 import { motion } from "framer-motion";
 import Head from "next/head";
 import Footer from "@/components/Footer/Footer";
+import clarity from "react-microsoft-clarity";
 
 const familyData = {
   // GreatGrandParents: [
@@ -192,6 +193,12 @@ const fadeInUp = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
 };
 
+const handlePhoneClick = (personName, number) => {
+  if (typeof window !== "undefined" && window.clarity) {
+    window.clarity("event", "PhoneNoClicked", { name, personName, number });
+  }
+};
+
 const FamilyMemberCard = ({
   name,
   occupation,
@@ -214,7 +221,10 @@ const FamilyMemberCard = ({
     {relation && <p className="text-gray-400 mb-1">🔗 {relation}</p>}
     {occupation && <p className="text-gray-400 mb-1">💼 {occupation}</p>}
     {contact && (
-      <a href={`tel:${contact}`}>
+      <a
+        href={`tel:${contact}`}
+        onClick={() => handlePhoneClick(name, contact)}
+      >
         <p className="text-gray-400 mb-1">📞 Click here to connect</p>
       </a>
     )}
