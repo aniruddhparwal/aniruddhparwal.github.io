@@ -234,7 +234,9 @@ const ProfilePage = () => {
                     Pioneer Academy, Kalakhet, Mandsaur
                   </a>
                 </li>
-                <li className="text-blue-400">Shreyas Enterprises, Mandsaur</li>
+                <li className="text-blue-400">
+                  Jimlogy Kitchens Pvt. Ltd., Mandsaur
+                </li>
                 <li>
                   <a
                     href="https://maps.app.goo.gl/k15nbsFLrYXvJs5a6"

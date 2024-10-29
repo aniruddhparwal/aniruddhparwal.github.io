@@ -81,7 +81,7 @@ const familyData = {
       name: "Shri Abhishek Parwal",
       contact: 9425105513,
       parent: "S/O Chandrakanta Suresh Parwal",
-      occupation: "Self-owned Business",
+      occupation: "Family Business",
     },
     {
       name: "Smt. Rakhi Parwal",
@@ -91,7 +91,7 @@ const familyData = {
       name: "Shri Saurabh Parwal",
       contact: 9893609995,
       parent: "S/O Vidhya Dinesh Parwal",
-      occupation: "Self-owned Business",
+      occupation: "Family Business",
     },
     {
       name: "Smt. Priyanka Parwal",
@@ -101,7 +101,7 @@ const familyData = {
       name: "Shri Gaurav Parwal",
       contact: 9425327566,
       parent: "S/O Vidhya Dinesh Parwal",
-      occupation: "Self-owned Business",
+      occupation: "Family Business",
     },
     {
       name: "Smt. Arpita Parwal",
