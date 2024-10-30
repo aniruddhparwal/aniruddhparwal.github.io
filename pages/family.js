@@ -124,7 +124,7 @@ const familyData = {
   ],
   MaternalFamily: [
     {
-      name: "Shri Radhyshyam Ji Kabra",
+      name: "Shri Radheshyam Ji Kabra",
       contact: 9351419617,
       relation: "Nana ji",
       place: "Chittorgarh (Raj.)",
