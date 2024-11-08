@@ -310,6 +310,22 @@ const Family = () => {
         <link rel="icon" href="/aniruddh.jpg" />
         <title>Aniruddh Parwal - Family Details</title>
         <meta name="robots" content="noindex, nofollow" />
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        />
       </Head>
       <div className="min-h-screen bg-[#0f172a] py-12 px-4 sm:px-6 lg:px-8 text-white">
         <motion.div
