@@ -110,7 +110,7 @@ const ProfilePage = () => {
                 Aniruddh Parwal
               </h1>
               <p className="text-lg font-semibold mb-4">
-                Software Developer at Visit Health, Noida
+                Software Developer at Lemon Tree Hotels
               </p>
               <p className="mb-4 text-highlight">
                 A software engineer with simple lifestyle, strong family values.
